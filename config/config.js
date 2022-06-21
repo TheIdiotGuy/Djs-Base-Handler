@@ -1,3 +1,8 @@
+/**
+ * ===== ( CREDITS ) =====
+ * @author TheIdiotGuy <devinsane.79@gmail.com>
+ */
+
 /* Loading .env file content */
 require("dotenv").config();
 
@@ -16,9 +21,9 @@ module.exports = {
         token: "" || bot_token, /* The bots token */
         secret: "" || bot_secret, /* The bots secret */
         prefix: "!" || "o!", /* The bots default prefix */
-        id: "987343639330037850" || null, /* The bots id */
-        guild: "912594669785972736" || null, /* The bots test/developement server id */
-        dev: "987343639330037850" || null, /* The bots developer id */
+        id: "" || null, /* The bots id */
+        guild: "" || null, /* The bots test/developement server id */
+        dev: "" || null, /* The bots developer id */
         maintenance_mode: false, /* set it to true to remove access from all members except the developer */
         global_commands: false, /* set it to true to register commands globally */
     }

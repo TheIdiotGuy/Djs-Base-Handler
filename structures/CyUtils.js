@@ -1,3 +1,8 @@
+/**
+ * ===== ( CREDITS ) =====
+ * @author TheIdiotGuy <devinsane.79@gmail.com>
+ */
+
 const { token, secret, id, guild, dev } = require('../config/config.js').CyConfig;
 
 class Utils {

@@ -1,3 +1,8 @@
+/**
+ * ===== ( CREDITS ) =====
+ * @author TheIdiotGuy <devinsane.79@gmail.com>
+ */
+
 /* Client Options */
 
 module.exports = {
@@ -7,14 +12,14 @@ module.exports = {
             parse: ['users', 'roles'],
             repliedUser: true
         },
-        // presence: {
-        //     activities: [
-        //         {
-        //             name: 'Cyborg Developement',
-        //             type: 'LISTENING'
-        //         }
-        //     ],
-        //     status: 'idle'
-        // }
+        presence: {
+            activities: [
+                {
+                    name: 'Cyborg Developement',
+                    type: 'LISTENING'
+                }
+            ],
+            status: 'idle'
+        }
     }
 }

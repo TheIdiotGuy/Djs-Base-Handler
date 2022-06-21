@@ -1,3 +1,8 @@
+/**
+ * ===== ( CREDITS ) =====
+ * @author TheIdiotGuy <devinsane.79@gmail.com>
+ */
+
 const { REST } = require("@discordjs/rest");
 const { Routes } = require("discord-api-types/v9");
 const { Client, Collection } = require("discord.js");
